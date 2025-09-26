@@ -10,17 +10,17 @@ public class SuperSonicAp extends Airplane {
 	 * 4. info() 메서드는 이름을 비행기의 이름, 속도를 리턴하도록 생성하세요.
 	 */
 
+    public int flyMode;
+
     public SuperSonicAp(String name) {
         super(name);
         this.flyMode = 0;
     }
 
-    public int flyMode;
-
     @Override
     void fly() {
         if ( this.flyMode == 1 ) {
-            System.out.println("고속모드로 비행합니다");
+            System.out.println("고속 모드로 비행합니다");
         } else {
             super.fly();
         }

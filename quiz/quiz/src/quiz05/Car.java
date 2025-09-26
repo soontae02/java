@@ -17,6 +17,7 @@ public class Car {
     Car (String model) {
         this(model, 0);
     }
+
     String getModel() {
         return model;
     }
@@ -45,8 +46,8 @@ public class Car {
 		*/
         for (int i = 0; i <= 200; i+=30) {
 
-            this.accel(i);
-            System.out.println(this.toString());
+            accel(i);
+            System.out.println("현재속도: " + speed);
 
         }
 

@@ -4,6 +4,8 @@ public class MainClass {
     public static void main(String[] args) {
         SuperSonicAp air = new SuperSonicAp("행기");
 
+        air.takeOff();
+
         System.out.println(air.info());
         air.fly();
 
@@ -11,6 +13,8 @@ public class MainClass {
         air.flyMode = 1;
         System.out.println(air.info());
         air.fly();
+
+        air.land();
 
     }
 }
