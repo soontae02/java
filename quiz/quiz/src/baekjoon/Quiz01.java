@@ -1,4 +1,4 @@
-package BackJoon;
+package baekjoon;
 //X보다 작은 수
 
 import java.util.Scanner;

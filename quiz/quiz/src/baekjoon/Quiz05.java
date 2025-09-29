@@ -1,16 +1,16 @@
-package BackJoon;
-//??!
+package baekjoon;
+//년도구하기
 
 import java.util.Scanner;
 
-public class Quiz04 {
+public class Quiz05 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
 
-        String s = sc.nextLine();
+        int y = sc.nextInt();
 
-        System.out.println(s + "??!");
+        System.out.println(y - 543);
 
     }
 }

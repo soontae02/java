@@ -1,4 +1,4 @@
-package BackJoon;
+package baekjoon;
 //시험 성적
 
 import java.util.Scanner;
