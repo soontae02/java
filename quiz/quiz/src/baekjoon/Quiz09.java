@@ -1,9 +1,9 @@
-package quiz16;
+package Quiz09;
 //알파벳 찾기
 
 import java.util.Scanner;
 
-public class MainClass {
+public class Quiz09 {
     public static void main(String[] args) {
 
         Scanner sc = new Scanner(System.in);
